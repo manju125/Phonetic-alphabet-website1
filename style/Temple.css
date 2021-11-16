@@ -1,0 +1,9 @@
+ul#pilot {
+    background: #191a19;
+    padding: 20px;
+}
+
+ul#pilot li {
+    background: #f8f403;
+    margin: 5px;
+}
