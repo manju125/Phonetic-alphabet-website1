@@ -3,7 +3,7 @@ name: EKS Runner Test
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   test:
