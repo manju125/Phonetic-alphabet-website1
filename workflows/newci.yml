@@ -1,0 +1,17 @@
+name: EKS Runner Test
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: [self-hosted]
+
+    steps:
+      - name: Print Host Info
+        run: |
+          echo "Running on EKS Runner"
+          hostname
+          uname -a
